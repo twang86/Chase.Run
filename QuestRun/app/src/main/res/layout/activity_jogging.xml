@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_sky_gradient"
+    android:orientation="vertical"
+    tools:context="run.quest.twang.questrun.jogging.JoggingActivity">
+
+    <include layout="@layout/floating_bg_mountains"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/jogging_screen_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:background="@drawable/box"
+        android:backgroundTint="@color/colorLight"
+        android:elevation="5dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Av. Speed"
+                android:textColor="@color/textOnLight"/>
+
+            <TextView
+                android:id="@+id/jogging_speed_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12.3"
+                android:textColor="@color/textOnLight"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/jogging_speed_units_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="units"
+                android:textColor="@color/textOnLight"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distance"
+                android:textColor="@color/textOnLight"/>
+
+            <TextView
+                android:id="@+id/jogging_distance_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12.3"
+                android:textColor="@color/textOnLight"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/jogging_distance_units_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="units"
+                android:textColor="@color/textOnLight"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:textColor="@color/textOnLight"/>
+
+            <TextView
+                android:id="@+id/jogging_time_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12.3"
+                android:textColor="@color/textOnLight"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/jogging_time_units_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="units"
+                android:textColor="@color/textOnLight"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/jogging_stop_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_box"
+        android:backgroundTint="@color/orangeDark"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="STOP RUN"
+        android:textColor="@color/textOnDark"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+
+
+
+
+</FrameLayout>

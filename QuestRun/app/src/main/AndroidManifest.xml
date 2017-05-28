@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="run.quest.twang.questrun">
+
+    <uses-feature
+        android:name="android.hardware.sensor.stepdetector"
+        android:required="false"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_t_rex"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_t_rex"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".loadingscreen.LoadingActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <service android:name=".jogging.JogService"/>
+
+        <activity
+            android:name=".homescreen.HomeActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".jogging.JoggingActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".monsterselector.MonsterSelectionActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".jogging.JogSummaryActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".character.CharacterActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

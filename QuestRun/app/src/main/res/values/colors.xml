@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/orangeMedium</color>
+    <color name="colorPrimaryDark">@color/orangeDark</color>
+    <color name="colorAccent">@color/orangeMedium</color>
+    <color name="colorLight">@color/orangeLight</color>
+    
+    <color name="skyDark">#1565C0</color>
+    <color name="skyMedium">#42A5F5</color>
+    <color name="skyLight">#E3F2FD</color>
+
+    <color name="grassLight">#3e9550</color>
+    <color name="grassDark">#1b4f2d</color>
+
+    <color name="orangeDark">#EF6C00</color>
+    <color name="orangeMedium">#FFA726</color>
+    <color name="orangeLight">#FFE0B2</color>
+
+    <color name="textOnDark">@color/white</color>
+    <color name="textOnLight">@color/black</color>
+
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="gray">#8b8b8b</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#00761b</color>
+</resources>

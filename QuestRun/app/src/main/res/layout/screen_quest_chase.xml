@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/chase_layout_root"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@drawable/bg_sky_gradient">
+
+    <include layout="@layout/floating_bg_mountains"/>
+
+    <ImageView
+        android:id="@+id/monster_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <FrameLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/screen_monster_distance"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/roundx2_box"
+            android:backgroundTint="@color/white"
+            android:padding="20dp"
+            android:text="55 feet"
+            android:textStyle="bold"
+            android:elevation="5dp"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/screen_monster_name"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:elevation="10dp"
+            android:background="@drawable/roundx2_box"/>
+
+    </FrameLayout>
+
+
+
+
+</FrameLayout>

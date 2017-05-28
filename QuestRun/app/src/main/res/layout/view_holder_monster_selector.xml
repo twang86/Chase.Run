@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="250dp"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:layout_margin="10dp"
+              android:elevation="5dp"
+              android:background="@drawable/rounded_box"
+              android:backgroundTint="@color/colorLight"
+              android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/monster_selector_pic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/monster_selector_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Monster Name"
+                android:textSize="20sp"
+                android:textColor="@color/textOnLight"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/monster_selector_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textOnLight"
+                android:layout_marginBottom="5dp"
+                android:text="Monster Speed"/>
+
+            <TextView
+                android:id="@+id/monster_selector_stamina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textOnLight"
+                android:layout_marginBottom="5dp"
+                android:text="Monster Stamina"/>
+
+            <TextView
+                android:id="@+id/monster_selector_health"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textOnLight"
+                android:layout_marginBottom="5dp"
+                android:text="Monster Health"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/monster_selector_description"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="17sp"
+        android:textColor="@color/textOnLight"/>
+
+
+</LinearLayout>
