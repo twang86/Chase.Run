@@ -30,13 +30,6 @@ https://play.google.com/store/apps/details?id=run.quest.twang.questrun
 <img src="Screens/HomeScreen.png" height="300px" /> <img src="Screens/MonsterScreen.png" height="300px" /> <img src="Screens/RunScreen.png" height="300px" /> 
 </p>
 
-## Research and Prework
-
-- A questionaire was created to gather information on people's workout habits and how smartphones affect their exerecise
-- Link: https://goo.gl/forms/2htLomCucnUXUcOp1
-- Results: https://docs.google.com/spreadsheets/d/1JMtMy7o262f11gj5ew9WQ-0m28INks9FYtL24U1-3C0/edit?usp=sharing
-- Project Proposal: https://docs.google.com/presentation/d/1oo_XQ-uA2SQ11MJoF8IEy-9OijlG0ifkSYDuLzQzdLk/edit?usp=sharing
-
 
 ## Future plans
 
