@@ -1,3 +1,7 @@
+## Now availabe in the Playstore!
+
+https://play.google.com/store/apps/details?id=run.quest.twang.questrun
+
 ## Chase.Run!
 
 This app is a run tracker app with a twist. Before you start a run, you can set a monster to chase you.
@@ -11,10 +15,6 @@ This app uses
 - Database to save quest information
 - System's media player to inform users when a monster is getting close
 - Step sensor to track a player's movement
-
-## Play Store
-
-https://play.google.com/store/apps/details?id=run.quest.twang.questrun
 
 ## App Features
 
